@@ -1,9 +1,9 @@
 import "./App.css";
 
-import Bulbasaur from "./components/PokemonCard";
+import PokemonCard from "./components/PokemonCard";
 
 		<div>
-      <Bulbasaur />
+      <PokemonCard />
     </div>
 
-export default Bulbasaur;
+export default PokemonCard;
