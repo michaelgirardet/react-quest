@@ -1,6 +1,8 @@
-interface PokemonCard {
-		name: string;
-		imgSrc: string;
+interface PokemonCard{
+    pokemon:{
+        name:string;
+        imgSrc?:string;
+    }
 }
 
 
