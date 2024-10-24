@@ -7,13 +7,13 @@ const pokemonList = [
 			"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
 	},
 	{
-		name: "Mew",
+		name: 4,
 	},
 ];
 
 function App() {
 	return (
-			<PokemonCard pokemon={pokemonList[1]} />
+			<PokemonCard pokemon={pokemonList[0]} />
 	);
 }
 
